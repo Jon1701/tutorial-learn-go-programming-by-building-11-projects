@@ -28,9 +28,14 @@ func getMovie(w http.ResponseWriter, r *http.Request) {
 	// To be implemented.
 }
 
+func createMovie(w http.ResponseWriter, r *http.Request) {
+	// To be implemented.
+}
+
 func main() {
 	r := mux.NewRouter()
 
 	r.HandleFunc("/movies", getMovies).Methods("GET")
 	r.HandleFunc("/movies/{id}", getMovie).Methods("GET")
+	r.HandleFunc("/movies", createMovie).Methods("POST")
 }
