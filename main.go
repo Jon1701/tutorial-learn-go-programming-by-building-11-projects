@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"log"
 	"net/http"
@@ -23,7 +24,8 @@ type Director struct {
 var movies []Movie
 
 func getMovies(w http.ResponseWriter, r *http.Request) {
-	// To be implemented.
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder
 }
 
 func getMovie(w http.ResponseWriter, r *http.Request) {
