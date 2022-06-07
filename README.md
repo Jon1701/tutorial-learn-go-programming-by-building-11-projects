@@ -1,2 +1,3 @@
-# build-a-crud-api-with-golang
-Implementation of the "Build A CRUD API with Golang" Tutorial from the Learn Go Programming by Building 11 Projects video by freeCodeCamp.org
+# Build a CRUD API with Golang
+
+Implementation of the [Build a CRUD API with Golang](https://youtu.be/jFfo23yIWac?t=1234) Tutorial from the [Learn Go Programming by Building 11 Projects](https://www.youtube.com/watch?v=jFfo23yIWac) video by [freeCodeCamp.org](https://www.youtube.com/c/Freecodecamp).
