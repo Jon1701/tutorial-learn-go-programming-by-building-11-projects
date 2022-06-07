@@ -36,6 +36,10 @@ func updateMovie(w http.ResponseWriter, r *http.Request) {
 	// To be implemented.
 }
 
+func deleteMovie(w http.ResponseWriter, r *http.Request) {
+	// To be implemented.
+}
+
 func main() {
 	r := mux.NewRouter()
 
@@ -43,4 +47,5 @@ func main() {
 	r.HandleFunc("/movies/{id}", getMovie).Methods("GET")
 	r.HandleFunc("/movies", createMovie).Methods("POST")
 	r.HandleFunc("/movies/{id}", updateMovie).Methods("PUT")
+	r.HandleFunc("/movies/{id}", deleteMovie).Methods("DELETE")
 }
